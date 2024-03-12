@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProgramArgs": {
+      "commandName": "Project",
+      "commandLineArgs": "hellow World"
+    }
+  }
+}
