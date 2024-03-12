@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "Basics\HelloW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{29DD74BF-3924-48D8-84A1-85E312C5B317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "DataStructures\Arrays\Arrays.csproj", "{5F2367FB-B6D5-4AA8-82EC-FBEC65747E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "DataStructures\Arrays\Arrays.csproj", "{5F2367FB-B6D5-4AA8-82EC-FBEC65747E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramArgs", "DataStructures\ProgramArgs\ProgramArgs.csproj", "{D65C4A0F-E933-4F04-A0F7-9B85E4542EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramArgs", "DataStructures\ProgramArgs\ProgramArgs.csproj", "{D65C4A0F-E933-4F04-A0F7-9B85E4542EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayInit", "DataStructures\ArrayInit\ArrayInit.csproj", "{274F1BC3-B84B-4661-BBA2-EFF11529FF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayInit", "DataStructures\ArrayInit\ArrayInit.csproj", "{274F1BC3-B84B-4661-BBA2-EFF11529FF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unsafe2", "DataStructures\Unsafe2\Unsafe2.csproj", "{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unsafe2", "DataStructures\Unsafe2\Unsafe2.csproj", "{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArray", "DataStructures\2DArray\2DArray.csproj", "{117E0B48-2D93-4F7C-99BF-82EF2354CEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DJaggedArray", "DataStructures\2DJaggedArray\2DJaggedArray.csproj", "{42EC1569-4AEB-48F9-AD35-EF586062CC3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117E0B48-2D93-4F7C-99BF-82EF2354CEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117E0B48-2D93-4F7C-99BF-82EF2354CEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117E0B48-2D93-4F7C-99BF-82EF2354CEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117E0B48-2D93-4F7C-99BF-82EF2354CEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EC1569-4AEB-48F9-AD35-EF586062CC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EC1569-4AEB-48F9-AD35-EF586062CC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EC1569-4AEB-48F9-AD35-EF586062CC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EC1569-4AEB-48F9-AD35-EF586062CC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +65,8 @@ Global
 		{D65C4A0F-E933-4F04-A0F7-9B85E4542EAD} = {29DD74BF-3924-48D8-84A1-85E312C5B317}
 		{274F1BC3-B84B-4661-BBA2-EFF11529FF90} = {29DD74BF-3924-48D8-84A1-85E312C5B317}
 		{DFC2679B-0CB1-42D7-98C7-1B981C73B2CE} = {29DD74BF-3924-48D8-84A1-85E312C5B317}
+		{117E0B48-2D93-4F7C-99BF-82EF2354CEB4} = {29DD74BF-3924-48D8-84A1-85E312C5B317}
+		{42EC1569-4AEB-48F9-AD35-EF586062CC3B} = {29DD74BF-3924-48D8-84A1-85E312C5B317}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EC5691F-8194-4CDB-BAFF-D61110515819}
